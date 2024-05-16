@@ -4,6 +4,8 @@
 
 - [hexo下LaTeX无法显示的解决方案](https://blog.csdn.net/crazy_scott/article/details/79293576)
 
+- [hexo渲染Latex公式（最简单方法）_仅参考_hexo katex-CSDN博客](https://blog.csdn.net/u014155600/article/details/128972156)
+
 - OpenSSL SSL_connect Connection was reset
 
   [解除SSL认证](https://blog.csdn.net/weixin_43945983/article/details/110882074)

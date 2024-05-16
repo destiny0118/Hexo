@@ -13,6 +13,8 @@ mathjax: true
 
 # Latex排版
 
+
+
 [LaTeX（XeLaTeX）写的文档如何一键转为word？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/31850346)
 
 ## 换行
@@ -78,6 +80,8 @@ abc &=
 
 [(11条消息) item调整缩进 latex - CSDN](https://www.csdn.net/tags/NtzaYg3sMzg3ODQtYmxvZwO0O0OO0O0O.html)
 
+[Latex 插入列举条目、编号item及间隔调整_latex列举_衷科知眠的博客-CSDN博客](https://blog.csdn.net/JingpengSun/article/details/129166744)
+
 https://blog.csdn.net/robert_chen1988/article/details/83179571
 
 ## 3. 插入表格
@@ -96,9 +100,15 @@ https://blog.csdn.net/robert_chen1988/article/details/83179571
 
 
 
+## 空格
 
+[LaTeX中的宽度单位em,ex,px,pt_latex pt-CSDN博客](https://blog.csdn.net/gsgbgxp/article/details/129693747)
 
+[Latex 中的空格汇总_latex 空白-CSDN博客](https://blog.csdn.net/hysterisis/article/details/114123131)
 
+[(78条消息) Latex 中的空格汇总_latex中空格_零度蛋花粥的博客-CSDN博客](https://blog.csdn.net/hysterisis/article/details/114123131)
+
+![img](https://raw.githubusercontent.com/destiny0118/picgo/master/pic2023/202307261602226.jpeg)
 
 
 
@@ -175,6 +185,12 @@ $\underline a$
 
 ![img](https://raw.githubusercontent.com/destiny0118/picgo/master/pic/202112292254595.png)
 
+空心字符
+$$
+\mathbb{R}
+$$
+
+
 ## 3. 上下标、根号、省略号
 
 ```latex
@@ -224,7 +240,7 @@ $leftarrow$
 
   $\leftarrow$
 
-![img](https://raw.githubusercontent.com/destiny0118/picgo/master/pic/pic/20181104140310286.JPG)
+![img](https://raw.githubusercontent.com/destiny0118/picgo/master/pic/20181104140310286.JPG)
 
 ## 5. 除法
 
@@ -366,5 +382,9 @@ $$
 \lfloor\frac{k_w-1}{2}\rfloor,
 \lceil \frac{k_h-1}{2}\rceil, 
 \lfloor\frac{k_h-1}{2}\rfloor\enspace]
+$$
+
+$$
+\gradient
 $$
 

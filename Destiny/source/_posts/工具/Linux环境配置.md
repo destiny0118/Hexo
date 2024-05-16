@@ -27,7 +27,46 @@ su root				//切换到root
 ## 3. 进程管理命令
 
 
+# 备份还原Linux子系统
+```shell
+wsl  //进入默认的linux发行版
+wsl -l  //列出已安装的linux发行版
+wsl --shutdown  //终止正在运行的wsl
 
+
+wsl --export Ubuntu-22.04 F:/export.tar  //导出需要迁移的Linux发行版
+
+wsl --import <DistributionName> <InstallLocation> <FileName>
+wsl --import Ubuntu F:/Cache/WSL F:/export.tar
+（将FileName安装到InstallLocation位置，新的发行版名称DistributionName）
+Ubuntu config --default-user {你原来的用户名}
+
+wsl --unregister Ubuntu
+```
+[WSL备份与还原 | 小肥羊吃草不吃肉 (xfy-learning.com)](https://www.xfy-learning.com/2020/05/30/WSL%E5%A4%87%E4%BB%BD%E4%B8%8E%E8%BF%98%E5%8E%9F/)
+[WSL的安装和位置迁移 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/406917270)
+# Linux安装Go
+
+```bash
+cd /mnt/d/Downloads
+tar -C /usr/local/go -zxvf go1.21.6.linux-amd64.tar.gz
+
+
+//配置环境变量： Linux下有两个文件可以配置环境变量，其中`/etc/profile`是对所有用户生效的；`$HOME/.profile`是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=/home/go
+export GOBIN=$GOPATH/bin
+
+
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+```
+
+go run mrsequential.go wc.so pg*.txt
+```
+
+
+[linux修改文件夹下所有文件的权限（常用）_linux如何把文件夹的权限设置为可执行-CSDN博客](https://blog.csdn.net/qq_41996454/article/details/109689314)
 ## 虚拟机
 
 windows安装wsl与vmware兼容问题

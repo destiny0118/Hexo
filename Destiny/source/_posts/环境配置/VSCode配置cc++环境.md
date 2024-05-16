@@ -54,4 +54,10 @@ ctrl+shift+P修改default,setting
 
 ipch文件夹是Intelli Sense（好像是预编译头文件之类的）这个东西产生的缓存文件
 
-![image-20230228094652335](D:\Hexo\image\image-20230228094652335.png)
+![image-20230228094652335](https://raw.githubusercontent.com/destiny0118/picgo/master/pic2023/202303011100137.png)
+
+### 自动格式化
+
+![image-20230301110726122](https://raw.githubusercontent.com/destiny0118/picgo/master/pic2023/202303011107179.png)
+
+![image-20230301110654687](https://raw.githubusercontent.com/destiny0118/picgo/master/pic2013/202303011106724.png)

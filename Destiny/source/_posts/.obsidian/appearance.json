@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "baseFontSize": 14,
+  "theme": "obsidian",
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "img-grid"
+  ]
+}
